@@ -3,13 +3,17 @@
 .body {
   background-color: #a19c0d;
 }
-.row {
-  display: flex;
+.row:after {
+  display: table;
+  content:"";
+  clear: both;
 }
 .column1 {
   float: left;
   width: 20%;
   background-image: linear-gradient(#403e00, #ff644d);
+  position: sticky;
+  top: 10px;
 }
 .column2 {
   float: left;
