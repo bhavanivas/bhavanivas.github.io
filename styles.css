@@ -4,7 +4,7 @@
   background-color: #a19c0d;
 }
 .row {
-  content: flex;
+  display: flex;
 }
 .column1 {
   float: left;
