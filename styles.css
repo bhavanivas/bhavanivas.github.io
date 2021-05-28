@@ -1,17 +1,16 @@
 @@charset "UTF-8";
 
-.body {
-  background-image: linear-gradient(#ff644d, #403e00);
-  background-color: #ff644d;
+body {
+  background-image: linear-gradient(to bottom, #ff644d, #403e00);
 }
 .works {
   float: left;
   width: 20%;
-  background-image: linear-gradient(#403e00, #ff644d);
+  background-image: linear-gradient(to bottom, #403e00, #ff644d);
   position: sticky;
   top: 10px;
 }
 .content {
   padding: 25%;
-  background-image: linear-gradient(#ff644d, #403e00);
+  background-image: linear-gradient(to right, #ff644d, #403e00);
 }
