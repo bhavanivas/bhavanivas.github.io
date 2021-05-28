@@ -20,7 +20,3 @@
   width: 80%;
   background-image: linear-gradient(#ff644d, #403e00);
 }
-@media screen and (max-width: 600px) {
-.column {
-  witdth: 100%;
-}
