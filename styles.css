@@ -10,13 +10,15 @@ body {
 body a {
   font-weight: 600;
 }
+p {
+  clear: both;
+}
 .tab {
   overflow: hidden;
   width: 20%;
   background-image: linear-gradient(to bottom, #403e00, #200ba3);
   position: sticky;
   top: 40px;
-  clear: both;
 }
 .tab button {
   background-color: transparent;
