@@ -2,15 +2,16 @@
 /* CSS Document */
 
 body {
-  background-image: linear-gradient(to bottom right, #ff644d, #403e00);
+  background-image: linear-gradient(to bottom right, #403e00, #200ba3);
+  color: #ffdccc;
 }
 .works {
   width: 20%;
-  background-image: linear-gradient(to bottom, #403e00, #ff644d);
+  background-image: linear-gradient(to bottom, #403e00, #200ba3);
   position: sticky;
   top: 40px;
 }
 .content {
   padding: 25%;
-  background-image: linear-gradient(to right, #ff644d, #403e00, #403e00, #403e00);
+  background-image: linear-gradient(to right, #200ba3, #403e00, #403e00, #403e00);
 }
