@@ -1,4 +1,5 @@
 @@charset "UTF-8";
+/* CSS Document */
 
 body {
   background-image: linear-gradient(to bottom, #ff644d, #403e00);
@@ -11,5 +12,5 @@ body {
 }
 .content {
   padding: 25%;
-  background-image: linear-gradient(to right, #ff644d, #403e00);
+  background-image: linear-gradient(to right, #ff644d, #403e00, #403e00);
 }
