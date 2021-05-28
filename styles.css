@@ -4,11 +4,10 @@ body {
   background-image: linear-gradient(to bottom, #ff644d, #403e00);
 }
 .works {
-  float: left;
   width: 20%;
   background-image: linear-gradient(to bottom, #403e00, #ff644d);
   position: sticky;
-  top: 10px;
+  top: 40px;
 }
 .content {
   padding: 25%;
