@@ -2,6 +2,7 @@
 
 .body {
   background-image: linear-gradient(#ff644d, #403e00);
+  background-color: #ff644d;
   padding: 25%;
 }
 .works {
