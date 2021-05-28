@@ -11,12 +11,12 @@
   <body>
 <h1>Bhavani Srinivas</h1>
 <div class="tab">
-  <button class="tablinks" onClick="openWorks(event, 'Chronological')">Chronological</button>
+  <button class="tablinks" id="defaultOpen" onClick="openWorks(event, 'Chronological')">Chronological</button>
   <button class="tablinks" onClick="openWorks(event, 'Fiber')">Fiber</button>
   <button class="tablinks" onClick="openWorks(event, 'Graphic Design')">Graphic Design</button>
   <button class="tablinks" onClick="openWorks(event, 'Installation')">Installation</button>
   <button class="tablinks" onClick="openWorks(event, 'Video')">Video</button>
-  <div class="tabcontent" id="Chronological">
+  <div class="tabcontent" id="Chronological"> <br>
     <p>⧚ Art Hx <br>
     ⧚ Chaff & light trash <br>
     ⧚ Imaginary friends <br>
@@ -324,6 +324,8 @@ function openWorks(evt, worksName) {
  document.getElementById(worksName).style.display = "block";
  evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
+
 function myFunction() {
 	var popup = document.getElementById("words");
 	popup.classList.toggle("show");
