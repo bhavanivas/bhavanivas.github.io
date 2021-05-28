@@ -5,22 +5,57 @@
     <title>Bhavani Srinivas</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="shortcut icon" href="/assets/favicon.jpg">
-    <link rel="font" href="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
   </head>
   <body>
 <h1>Bhavani Srinivas</h1>
-<div class="works">
-  Chronological
-  ⧚ Art Hx
-  ⧚ Chaff & light trash
-  ⧚ Imaginary friends
-  ⧚ Princeton Visual Arts 2020
-  ⧚ Vetalam
-  ⧚ Fadograms
-  ⧚ Posters
-  ⧚ Roots & Wanted
-  ⧚ What to do?
-  ⧚ Please close the door
+<div class="tab">
+  <button class="tablinks" onClick="openWorks(event, 'Chronological')">Chronological</button>
+  <button class="tablinks" onClick="openWorks(event, 'Fiber')">Fiber</button>
+  <button class="tablinks" onClick="openWorks(event, 'Graphic Design')">Graphic Design</button>
+  <button class="tablinks" onClick="openWorks(event, 'Installation')">Installation</button>
+  <button class="tablinks" onClick="openWorks(event, 'Video')">Video</button>
+  <div class="tabcontent" id="Chronological">
+    <p>⧚ Art Hx <br>
+    ⧚ Chaff & light trash <br>
+    ⧚ Imaginary friends <br>
+    ⧚ Princeton Visual Arts 2020 <br>
+    ⧚ Vetalam <br>
+    ⧚ Fadograms <br>
+    ⧚ Posters <br>
+    ⧚ Roots & Wanted <br>
+    ⧚ What to do? <br>
+    ⧚ Please close the door <br></p>
+  </div>
+  <div class="tabcontent" id="Fiber">
+    <p>⧚ Chaff & light trash <br>
+    ⧚ Imaginary friends <br>
+    ⧚ Roots & Wanted <br>
+    ⧚ What to do? <br></p>
+  </div>
+  <div class="tabcontent" id="Graphic Design">
+    <p>⧚ Art Hx <br>
+    ⧚ Chaff & light trash <br>
+    ⧚ Princeton Visual Arts 2020 <br>
+    ⧚ Posters <br>
+    ⧚ William Greaves: Psychodrama, Interruption, and Circulation <br>
+    ⧚ Roots & Wanted <br>
+    ⧚ Please close the door <br></p>
+  </div>
+  <div class="tabcontent" id="Installation">
+    <p>⧚ Chaff & light trash <br>
+    ⧚ Imaginary friends <br>
+    ⧚ Vetalam <br>
+    ⧚ Fadograms <br>
+    ⧚ What to do? <br></p>
+  </div>
+  <div class="tabcontent" id="Video">
+    <p>⧚ Vetalam <br>
+    ⧚ Immi <br>
+    ⧚ Veru Mi Je Dobre <br>
+    ⧚ Soft Smiles</p>
+  </div>
 </div>
 <p class="content">
 Art Hx
@@ -276,6 +311,19 @@ Fountains, sculptures, seedlings, and furniture form a garden in the gallery. Sp
 
 </p>
 <script>
+function openWorks(evt, worksName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+   tabcontent[i].style.display = "none";
+ }
+ tablinks = document.getElementsByClassName("tablinks");
+ for (i = 0; i < tablinks.length; i++) {
+   tablinks[i].className = tablinks[i].className.replace(" active", "");
+ }
+ document.getElementById(worksName).style.display = "block";
+ evt.currentTarget.className += " active";
+}
 function myFunction() {
 	var popup = document.getElementById("words");
 	popup.classList.toggle("show");

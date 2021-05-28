@@ -4,12 +4,31 @@
 body {
   background-image: linear-gradient(to bottom right, #403e00, #200ba3);
   color: #e6ebd8;
+  font-family: 'Piazzolla', serif;
 }
-.works {
+body a {
+  font-weight: 600;
+}
+.tab {
+  overflow: hidden;
   width: 20%;
   background-image: linear-gradient(to bottom, #403e00, #200ba3);
   position: sticky;
   top: 40px;
+}
+.tab button {
+  background-color: transparent;
+  float: left;
+  cursor: pointer;
+}
+.tab button:hover {
+  background-color: #200ba3;
+}
+.tab button.active {
+  background-color: #403e00;
+}
+.tab content {
+  display: none;
 }
 .content {
   padding: 25%;
