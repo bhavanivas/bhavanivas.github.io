@@ -225,7 +225,7 @@ img.panel :hover {
   transform-origin: right;
 }
 .more {
-  background-image: radial-gradient(goldenrod, transparent);
+  background-image: radial-gradient(yellow, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
@@ -236,7 +236,7 @@ img.panel :hover {
 }
 .active, .more:hover {
   background-image: 
-    radial-gradient(fuchsia .5px, transparent .5px);
+    radial-gradient(goldenrod .5px, transparent .5px);
   background-size: 2px 2px;
 }
 .panel {
