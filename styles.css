@@ -8,7 +8,7 @@ body {
   text-align: left;
   font-family: 'bennet-banner', serif;
   font-size: 1.8vw;
-  color: mediumorchid;
+  color: cornflowerblue;
   margin: 0px;
   cursor: default;
 }
@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
   font-size: 2.2vw;
   line-height: 2vw;
-  color: sienna;
+  color: goldenrod;
 }
 @media screen and (max-width: 500px) {
 h1 {
