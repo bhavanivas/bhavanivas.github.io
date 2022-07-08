@@ -8,7 +8,7 @@ body {
   text-align: left;
   font-family: 'bennet-banner', serif;
   font-size: 1.8vw;
-  color: dodgerblue;
+  color: mediumblue;
   margin: 0px;
   cursor: default;
 }
@@ -20,7 +20,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: mediumblue;
+  color: tomato;
   cursor: pointer;
 }
 a.body:hover {
@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
   font-size: 2.2vw;
   line-height: 2vw;
-  color: sienna;
+  color: tomato;
 }
 @media screen and (max-width: 500px) {
 h1 {
@@ -237,7 +237,7 @@ img.panel :hover {
   width: 100%;
 }
 .more {
-  background-image: radial-gradient(cornflowerblue, transparent);
+  background-image: radial-gradient(tomato, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
