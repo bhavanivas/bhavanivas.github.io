@@ -236,7 +236,7 @@ img.panel :hover {
 }
 .active, .more:hover {
   background-image: 
-    radial-gradient(goldenrod .5px, transparent .5px);
+    radial-gradient(yellow .5px, transparent .5px);
   background-size: 2px 2px;
 }
 .panel {
