@@ -8,7 +8,7 @@ body {
   text-align: left;
   font-family: 'bennet-banner', serif;
   font-size: 1.8vw;
-  color: cornflowerblue;
+  color: dodgerblue;
   margin: 0px;
   cursor: default;
 }
@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
   font-size: 2.2vw;
   line-height: 2vw;
-  color: goldenrod;
+  color: sienna;
 }
 @media screen and (max-width: 500px) {
 h1 {
@@ -63,7 +63,8 @@ h3 {
 #nav a {
   background-image: 
     radial-gradient(olive, transparent);
-  width: 3em;
+  width: 5vw;
+  height: 5vw;
 }
 #nav div {
   display: none;
@@ -116,20 +117,20 @@ h3 {
   padding-right: 1vw;
   padding-left: 1vw;
   text-align: center;
-  border: thin dotted orangered;
+  border: thin dotted mediumspringgreen;
   font-size: 2vw;
-  color: orangered;
+  color: mediumspringgreen;
   font-family: 'bennet-banner', serif; 
   text-align: center;
 }
 .button:hover {
-  border-top: thin dotted maroon;
-  border-right: thin dotted maroon;
-  color: maroon;
+  border-top: thin dotted cornflowerblue;
+  border-right: thin dotted cornflowerblue;
+  color: cornflowerblue;
 }
 @keyframes binky {
   from {background-color: transparent;}
-  to {background-color: mediumspringgreen;}
+  to {background-color: olive;}
 }
 @media screen and (max-width: 700px) {
 .button {
@@ -148,18 +149,18 @@ textarea {
   color: #eaff00;
   font-family: 'bennet-banner', serif; 
   font-size: 1.8vw;
-  border: thin dotted #ff3300;
+  border: thin dotted mediumspringgreen;
 }
 textarea:active {
-  border: thin dotted #eaff00;
+  border: thin dotted mediumspringgreen;
 }
 input {
   width: 75%;
   background: transparent;
-  color: #eaff00;
+  color: mediumblue;
   font-family: 'bennet-banner', serif; 
   font-size: 1.8vw;
-  border: thin dotted #ff3300;
+  border: thin dotted mediumspringgreen;
 }
 .bigbutton {
   background-image: 
@@ -236,7 +237,7 @@ img.panel :hover {
   width: 100%;
 }
 .more {
-  background-image: radial-gradient(thistle, transparent);
+  background-image: radial-gradient(cornflowerblue, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
