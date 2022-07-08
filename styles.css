@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
   font-size: 2.2vw;
   line-height: 2vw;
-  color: brown;
+  color: goldenrod;
 }
 @media screen and (max-width: 500px) {
 h1 {
