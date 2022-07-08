@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 body {
-  background-color: lightgoldenrodyellow;
+  background-color: rosybrown;
   background-image: 
-    radial-gradient(plum .5px, transparent .5px);
+    radial-gradient(khaki .5px, transparent .5px);
   background-size: 1.5px 1.5px;
   text-align: left;
   font-family: 'bennet-banner', serif;
@@ -63,8 +63,7 @@ h3 {
 }
 #nav a {
   background-image: 
-    radial-gradient(mediumblue .5px, transparent .5px);
-  background-size: 2px 2px;
+    radial-gradient(olive, transparent);
   width: 3em;
 }
 #nav div {
@@ -199,7 +198,7 @@ a.yellow {
   writing-mode: vertical-lr;
   color: mediumspringgreen;
   position: fixed;
-  bottom: 0px;
+  bottom: 10px;
   right: .5vw;
   z-index: 5;
 }
@@ -239,9 +238,7 @@ img.panel :hover {
   width: 100%;
 }
 .more {
-  background-image: 
-    radial-gradient(springgreen .5px, transparent .5px);
-  background-size: 2px 2px;
+  background-image: radial-gradient(thistle, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
@@ -251,7 +248,9 @@ img.panel :hover {
   transition: 0.4s;
 }
 .active, .more:hover {
-  background-image: radial-gradient(thistle, transparent);
+  background-image: 
+    radial-gradient(springgreen .5px, transparent .5px);
+  background-size: 2px 2px;
 }
 .panel {
   padding: 0 18px;
