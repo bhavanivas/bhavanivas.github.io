@@ -47,7 +47,7 @@ h2 {
   color: mediumblue;
 }
 h3 {
-  color: orangered;
+  color: olive;
 }
 #nav {
   width: 100%;
@@ -117,16 +117,16 @@ h3 {
   padding-right: 1vw;
   padding-left: 1vw;
   text-align: center;
-  border: thin dotted mediumspringgreen;
+  border: thin dotted tomato;
   font-size: 2vw;
-  color: mediumspringgreen;
+  color: tomato;
   font-family: 'bennet-banner', serif; 
   text-align: center;
 }
 .button:hover {
-  border-top: thin dotted cornflowerblue;
-  border-right: thin dotted cornflowerblue;
-  color: cornflowerblue;
+  border-top: thin dotted mediumspringgreen;
+  border-right: thin dotted mediumspringgreen;
+  color: mediumspringgreen;
 }
 @keyframes binky {
   from {background-color: transparent;}
