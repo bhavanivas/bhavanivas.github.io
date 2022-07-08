@@ -126,13 +126,13 @@ h3 {
   text-align: center;
 }
 .button:hover {
-  border-top: thin dotted goldenrod;
-  border-right: thin dotted goldenrod;
-  color: goldenrod;
+  border-top: thin dotted mediumspringgreen;
+  border-right: thin dotted mediumspringgreen;
+  color: mediumspringgreen;
 }
 @keyframes binky {
   from {background-color: transparent;}
-  to {background-color: olive;}
+  to {background-color: goldenrod;}
 }
 @media screen and (max-width: 700px) {
 .button {
@@ -225,7 +225,7 @@ img.panel :hover {
   transform-origin: right;
 }
 .more {
-  background-image: radial-gradient(olive, transparent);
+  background-image: radial-gradient(goldenrod, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
@@ -236,7 +236,7 @@ img.panel :hover {
 }
 .active, .more:hover {
   background-image: 
-    radial-gradient(goldenrod .5px, transparent .5px);
+    radial-gradient(fuchsia .5px, transparent .5px);
   background-size: 2px 2px;
 }
 .panel {
