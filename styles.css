@@ -47,7 +47,7 @@ h2 {
   color: mediumblue;
 }
 h3 {
-  color: redorange;
+  color: orangered;
 }
 #nav {
   width: 100%;
@@ -117,16 +117,16 @@ h3 {
   padding-right: 1vw;
   padding-left: 1vw;
   text-align: center;
-  border: thin dotted redorange;
+  border: thin dotted orangered;
   font-size: 2vw;
-  color: redorange;
+  color: orangered;
   font-family: 'bennet-banner', serif; 
   text-align: center;
 }
 .button:hover {
-  border-top: thin dotted orangered;
-  border-right: thin dotted orangered;
-  color: orangered;
+  border-top: thin dotted maroon;
+  border-right: thin dotted maroon;
+  color: maroon;
 }
 @keyframes binky {
   from {background-color: transparent;}
@@ -248,7 +248,7 @@ img.panel :hover {
 }
 .active, .more:hover {
   background-image: 
-    radial-gradient(springgreen .5px, transparent .5px);
+    radial-gradient(mediumspringgreen .5px, transparent .5px);
   background-size: 2px 2px;
 }
 .panel {
