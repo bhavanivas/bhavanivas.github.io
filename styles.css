@@ -20,7 +20,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: tomato;
+  color: orange;
   cursor: pointer;
 }
 a.body:hover {
@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
   font-size: 2.2vw;
   line-height: 2vw;
-  color: tomato;
+  color: orange;
 }
 @media screen and (max-width: 500px) {
 h1 {
@@ -237,7 +237,7 @@ img.panel :hover {
   width: 100%;
 }
 .more {
-  background-image: radial-gradient(tomato, transparent);
+  background-image: radial-gradient(salmon, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
