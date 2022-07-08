@@ -40,7 +40,7 @@ h1 {
   }
 }
 h1:hover {
-  filter: drop-shadow(4px -1px 0px mediumspringgreen);
+  filter: drop-shadow(3px 2px 0px mediumspringgreen);
 }
 h2 {
   font-size: 2vw;
