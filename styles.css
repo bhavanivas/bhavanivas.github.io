@@ -118,16 +118,16 @@ h3 {
   padding-right: 1vw;
   padding-left: 1vw;
   text-align: center;
-  border: thin dotted tomato;
+  border: thin dotted yellow;
   font-size: 2vw;
-  color: tomato;
+  color: yellow;
   font-family: 'bennet-banner', serif; 
   text-align: center;
 }
 .button:hover {
-  border-top: thin dotted mediumspringgreen;
-  border-right: thin dotted mediumspringgreen;
-  color: mediumspringgreen;
+  border-top: thin dotted goldenrod;
+  border-right: thin dotted goldenrod;
+  color: goldenrod;
 }
 @keyframes binky {
   from {background-color: transparent;}
@@ -222,20 +222,6 @@ img.panel {
 img.panel :hover {
   transform: scale(2.3); 
   transform-origin: right;
-}
-.favorite {
-  border: thin dotted #eaff00;
-  background-image: 
-    radial-gradient(#eaff00 .5px, transparent .5px);
-}
-.favorite:hover {
-  filter: huerotate(80%);
-  transform: none;
-}
-.blob {
-  background-image: 
-    radial-gradient(#ff3300, transparent);
-  width: 100%;
 }
 .more {
   background-image: radial-gradient(olive, transparent);
