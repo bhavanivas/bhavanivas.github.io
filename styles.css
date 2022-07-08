@@ -238,7 +238,7 @@ img.panel :hover {
   width: 100%;
 }
 .more {
-  background-image: radial-gradient(orangered, transparent);
+  background-image: radial-gradient(olive, transparent);
   cursor: pointer;
   padding: 18px;
   width: 3vw;
