@@ -246,6 +246,7 @@ img.panel :hover {
   border: none;
   display: none;
   overflow: hidden;
+  text-align: left;
 }
 .exhibition {
   position: -webkit-sticky;
@@ -261,4 +262,7 @@ bennet-banner {
 font-family: bennet-banner,serif;
 font-weight: 300;
 font-style: normal;
+}
+iframe {
+  padding-top: 25vh;
 }
