@@ -210,7 +210,7 @@ a.yellow {
 }
 img {
   min-width: 1vw;
-  height: 30vh;
+  height: 50vh;
   padding-top: 25vh;
   margin-left: auto;
   margin-right: auto;
@@ -265,4 +265,6 @@ font-style: normal;
 }
 iframe {
   padding-top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
 }
