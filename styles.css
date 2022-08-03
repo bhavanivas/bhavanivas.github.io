@@ -10,6 +10,7 @@ body {
   color: linen;
   margin: 0px;
   cursor: default;
+  text-align: center;
 }
 @media screen and (max-width: 500px) {
 body {
@@ -252,6 +253,9 @@ img.panel :hover {
   top: 20px;
   left: 70vw;
   text-align: right;
+}
+.cv {
+  text-align: left;
 }
 bennet-banner {
 font-family: bennet-banner,serif;
