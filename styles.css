@@ -212,6 +212,7 @@ img {
   min-width: 1vw;
   height: 30vh;
   padding-top: 25vh;
+  text-align: center;
 }
 img.panel {
   min-width: 1vw;
