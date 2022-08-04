@@ -23,7 +23,7 @@ a {
   color: mediumblue;
   cursor: pointer;
 }
-a.body:hover {
+#content a {
   filter: drop-shadow(4px -1px 0px mediumspringgreen);
 }
 h1 {
