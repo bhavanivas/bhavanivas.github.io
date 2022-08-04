@@ -245,7 +245,7 @@ img.panel :hover {
   background-size: 2px 2px;
 }
 .panel {
-  padding: 0 18px;
+  padding: 20px;
   border: none;
   display: none;
   overflow: hidden;
