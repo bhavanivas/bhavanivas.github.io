@@ -212,7 +212,7 @@ a.yellow {
   }
 }
 img {
-  min-width: 1vw;
+  max-width: 33vw;
   height: 60vh;
   padding-top: 30vh;
   margin-left: auto;
