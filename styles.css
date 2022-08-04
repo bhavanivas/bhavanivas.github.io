@@ -5,7 +5,7 @@ body {
   background-image: 
     radial-gradient(khaki .5px, transparent .5px);
   background-size: 1.5px 1.5px;
-  font-family: 'bennet-banner', serif;
+  font-family: 'bennet-banner', 'Arima Madurai', serif;
   font-size: 1.8vw;
   color: linen;
   margin: 0px;
@@ -265,6 +265,10 @@ bennet-banner {
 font-family: bennet-banner,serif;
 font-weight: 300;
 font-style: normal;
+}
+@font-face {
+  font-family: 'Arima Madurai', serif;
+  unicode-range: U+0B80..U+0BFF;
 }
 iframe {
   padding-top: 35vh;
