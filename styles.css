@@ -6,16 +6,25 @@ body {
     radial-gradient(khaki .5px, transparent .5px);
   background-size: 1.5px 1.5px;
   font-family: 'bennet-banner', 'Arima Madurai', serif;
-  font-size: 1.8vw;
+  font-size: 1.75vw;
   color: linen;
   margin: 0px;
   cursor: default;
   text-align: center;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 body {
     font-size: 5.2vw;
     background-image: none;
+  }
+h1 {
+    font-size: 5.2vw;
+  }
+h2 {
+    font-size: 5.2vw;
+  }
+h3 {
+    font-size: 5.2vw;
   }
 }
 a {
@@ -275,3 +284,14 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (max-width: 800px) {
+iframe {
+    max-width: 90vw;
+  }
+}
+.scroll {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  left: 20px;
+  writing-mode: vertical-lr;
