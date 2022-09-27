@@ -5,7 +5,7 @@ body {
   background-image: 
     radial-gradient(khaki .5px, transparent .5px);
   background-size: 1.5px 1.5px;
-  font-family: 'bennet-banner', 'Arima Madurai', serif;
+  font-family: 'bennet-banner', serif, 'Arima Madurai';
   font-size: 1.7vw;
   color: linen;
   margin: 0px;
