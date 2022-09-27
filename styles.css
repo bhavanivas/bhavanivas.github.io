@@ -16,6 +16,7 @@ body {
 body {
     background-image: none;
   }
+}
 @media screen and (max-width: 800px) {
 body {
     font-size: 5.2vw;
