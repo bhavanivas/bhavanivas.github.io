@@ -12,10 +12,13 @@ body {
   cursor: default;
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+body {
+    background-image: none;
+  }
 @media screen and (max-width: 800px) {
 body {
     font-size: 5.2vw;
-    background-image: none;
   }
 h1 {
     font-size: 5.2vw;
