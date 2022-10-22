@@ -246,7 +246,6 @@ img.panel :hover {
   background-image: radial-gradient(yellow, transparent);
   cursor: pointer;
   padding: 18px;
-  padding-bottom: 30vh;
   width: 3vw;
   text-align: left;
   border: none;
