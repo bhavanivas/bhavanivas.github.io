@@ -6,7 +6,7 @@ body {
     radial-gradient(khaki .5px, transparent .5px);
   background-size: 1.5px 1.5px;
   font-family: 'bennet-banner', serif, 'Arima Madurai';
-  font-size: 1.7vw;
+  font-size: 2vw;
   color: linen;
   margin: 0px;
   cursor: default;
@@ -19,16 +19,16 @@ body {
 }
 @media screen and (max-width: 800px) {
 body {
-    font-size: 5.1vw;
+    font-size: 6vw;
   }
 h1 {
-    font-size: 5.1vw;
+    font-size: 6vw;
   }
 h2 {
-    font-size: 5.1vw;
+    font-size: 6vw;
   }
 h3 {
-    font-size: 5.1vw;
+    font-size: 6vw;
   }
 }
 a {
@@ -42,7 +42,7 @@ a {
 h1 {
   writing-mode: vertical-lr;
   font-style: italic;
-  font-size: 2.6vw;
+  font-size: 4vw;
   line-height: 2vw;
   color: yellow;
 }
@@ -56,11 +56,11 @@ h1:hover {
   filter: drop-shadow(3px 2px 0px mediumspringgreen);
 }
 h2 {
-  font-size: 2vw;
+  font-size: 3vw;
   color: mediumblue;
 }
 h3 {
-  font-size: 1.8vw;
+  font-size: 2vw;
   color: yellow;
 }
 #nav {
@@ -71,15 +71,14 @@ h3 {
   position: sticky;
   top: 0px;
   z-index: 100;
-  width: 10vw;
   writing-mode: vertical-lr;
   text-align: left;
 }
 #nav a {
   background-image: 
     radial-gradient(mediumspringgreen, transparent);
-  width: 8vw;
-  height: 8vw;
+  width: 12vw;
+  height: 12vw;
 }
 #nav div {
   display: none;
