@@ -77,8 +77,8 @@ h3 {
 #nav a {
   background-image: 
     radial-gradient(mediumspringgreen, transparent);
-  width: 12vw;
-  height: 12vw;
+  width: 20vw;
+  height: 20vw;
 }
 #nav div {
   display: none;
