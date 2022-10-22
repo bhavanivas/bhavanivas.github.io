@@ -42,7 +42,7 @@ a {
 h1 {
   writing-mode: vertical-lr;
   font-style: italic;
-  font-size: 2.2vw;
+  font-size: 2.6vw;
   line-height: 2vw;
   color: yellow;
 }
@@ -78,8 +78,8 @@ h3 {
 #nav a {
   background-image: 
     radial-gradient(mediumspringgreen, transparent);
-  width: 5vw;
-  height: 5vw;
+  width: 8vw;
+  height: 8vw;
 }
 #nav div {
   display: none;
@@ -246,7 +246,7 @@ img.panel :hover {
   background-image: radial-gradient(yellow, transparent);
   cursor: pointer;
   padding: 18px;
-  width: 3vw;
+  width: 5vw;
   text-align: left;
   border: none;
   outline: none;
