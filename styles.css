@@ -246,6 +246,7 @@ img.panel :hover {
   cursor: pointer;
   padding: 18px;
   width: 5vw;
+  height: 5vw;
   text-align: left;
   border: none;
   outline: none;
@@ -277,6 +278,7 @@ bennet-banner {
 font-family: bennet-banner,serif;
 font-weight: 300;
 font-style: normal;
+letter-spacing: .1rem;
 }
 @font-face {
   font-family: 'Arima Madurai', serif;
