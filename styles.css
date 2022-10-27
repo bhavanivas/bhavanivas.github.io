@@ -278,7 +278,7 @@ bennet-banner {
 font-family: bennet-banner,serif;
 font-weight: 300;
 font-style: normal;
-letter-spacing: .1rem;
+letter-spacing: .3rem;
 }
 @font-face {
   font-family: 'Arima Madurai', serif;
