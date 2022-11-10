@@ -11,6 +11,7 @@ body {
   margin: 0px;
   cursor: default;
   text-align: center;
+  letter-spacing: 1.2rem;
 }
 @media screen and (max-width: 1200px) {
 body {
@@ -275,10 +276,9 @@ img.panel :hover {
   text-align: left;
 }
 bennet-banner {
-font-family: bennet-banner,serif;
+font-family: bennet-banner, serif;
 font-weight: 300;
 font-style: normal;
-letter-spacing: 1.2rem;
 }
 @font-face {
   font-family: 'Arima Madurai', serif;
