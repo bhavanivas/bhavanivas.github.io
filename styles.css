@@ -11,7 +11,7 @@ body {
   margin: 0px;
   cursor: default;
   text-align: center;
-  letter-spacing: .8rem;
+  letter-spacing: .4rem;
 }
 @media screen and (max-width: 1200px) {
 body {
@@ -269,7 +269,7 @@ img.panel :hover {
   position: -webkit-sticky;
   position: sticky;
   top: 20px;
-  left: 90vw;
+  left: 95vw;
   writing-mode: vertical-lr;
 }
 .cv {
