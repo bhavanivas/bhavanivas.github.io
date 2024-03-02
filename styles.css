@@ -76,7 +76,7 @@ h3 {
 }
 #nav a {
   background-image: 
-    radial-gradient(yellow, transparent);
+    radial-gradient(mediumspringgreen, transparent);
   width: 20vw;
   height: 20vw;
 }
@@ -212,7 +212,7 @@ a.yellow {
   font-style: italic;
   font-size: 3.0vw;
   writing-mode: vertical-lr;
-  color: mediumspringgreen;
+  color: yellow;
   position: fixed;
   bottom: 10px;
   right: .5vw;
