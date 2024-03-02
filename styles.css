@@ -6,7 +6,7 @@ body {
   background-size: 1.5px 1.5px;
   font-family: 'bennet-banner', serif, 'Arima Madurai';
   font-size: 2vw;
-  color: linen;
+  color: mediumblue;
   margin: 0px;
   cursor: default;
   text-align: center;
@@ -37,14 +37,14 @@ a {
   cursor: pointer;
 }
 #content a {
-  filter: drop-shadow(4px -1px 0px mediumspringgreen);
+  filter: drop-shadow(4px -1px 0px yellow);
 }
 h1 {
   writing-mode: vertical-lr;
   font-style: italic;
   font-size: 3.5vw;
   line-height: 2vw;
-  color: yellow;
+  color: mediumspringgreen;
 }
 @media screen and (max-width: 500px) {
 h1 {
@@ -53,7 +53,7 @@ h1 {
   }
 }
 h1:hover {
-  filter: drop-shadow(3px 2px 0px mediumspringgreen);
+  filter: drop-shadow(3px 2px 0px yellow);
 }
 h2 {
   font-size: 3vw;
@@ -61,7 +61,7 @@ h2 {
 }
 h3 {
   font-size: 2vw;
-  color: yellow;
+  color: mediumspringgreen;
 }
 #nav {
   width: 100%;
@@ -76,7 +76,7 @@ h3 {
 }
 #nav a {
   background-image: 
-    radial-gradient(mediumspringgreen, transparent);
+    radial-gradient(yellow, transparent);
   width: 20vw;
   height: 20vw;
 }
