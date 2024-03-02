@@ -9,7 +9,7 @@ body {
   color: mediumblue;
   margin: 0px;
   cursor: default;
-  text-align: center;
+  text-align: left;
   letter-spacing: .2rem;
 }
 @media screen and (max-width: 1200px) {
